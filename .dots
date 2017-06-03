@@ -55,14 +55,6 @@ function runDots() {
             echo ""
             ./osx.sh
         fi
-        if [ $ARG == "pydata" ] || [ $ARG == "all" ]; then
-            # Run the pydata.sh Script
-            echo "------------------------------"
-            echo "Setting up Python data development environment."
-            echo "------------------------------"
-            echo ""
-            ./pydata.sh
-        fi
         if [ $ARG == "aws" ] || [ $ARG == "all" ]; then
             # Run the aws.sh Script
             echo "------------------------------"
@@ -86,14 +78,6 @@ function runDots() {
             echo "------------------------------"
             echo ""
             ./web.sh
-        fi
-        if [ $ARG == "android" ] || [ $ARG == "all" ]; then
-            # Run the android.sh Script
-            echo "------------------------------"
-            echo "Setting up Android development environment."
-            echo "------------------------------"
-            echo ""
-            ./android.sh
         fi
     done
 
